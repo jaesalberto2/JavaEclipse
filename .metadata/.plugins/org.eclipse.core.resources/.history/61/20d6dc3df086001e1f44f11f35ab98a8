@@ -1,0 +1,40 @@
+/*
+ * Ejercicio 20Igual que el ejercicio anterior 
+ * pero esta vez se debe pintar una pirámide hueca.
+ */
+
+package guiaRepeticion;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Ejercicio20 {
+
+
+	        String character = JOptionPane.showInputDialog("Introduce el carácter con el que se pintará la pirámide:");
+	        
+	        int rows = Integer.parseInt(JOptionPane.showInputDialog("Introduce la cantidad de filas de la pirámide:"));
+
+	        for (int i = 0; i < rows; i++) {
+	            for (int j = 0; j < rows - i; j++) {
+	                System.out.print(" ");
+	            }
+	            if (i == 0 || i == rows - 1) {
+	                for (int j = 0; j < 2 * i + 1; j++) {
+	                    System.out.print(character);
+	                }
+	            } else {
+	                System.out.print(character);
+	                for (int j = 0; j < 2 * i - 1; j++) {
+	                    System.out.print(" ");
+	                }
+	                System.out.print(character);
+	            }
+	            System.out.println();
+	      
+	}
+
+	}
+
+}

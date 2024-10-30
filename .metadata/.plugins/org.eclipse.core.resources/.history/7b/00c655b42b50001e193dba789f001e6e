@@ -1,0 +1,13 @@
+package basicos;
+
+public class ConversorDeEurosApeceras {
+
+	public static void main(String[] args) {
+		int euros=1, pesetas=166;
+		System.out.println("\t\tConversor de euros a pesetas");
+		System.out.println("Euros\t\tPesetas");
+		System.out.println(x+"\t\t"+y);
+
+	}
+
+}

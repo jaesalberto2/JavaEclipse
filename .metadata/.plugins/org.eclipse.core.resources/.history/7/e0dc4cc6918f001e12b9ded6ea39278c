@@ -1,0 +1,47 @@
+/*
+ * Ejercicio 13; generar 20 numeros random con un rango de 1 a 50
+ * y almacenarlo en un arreglo de tipo entero, deteminar cuantos 
+ * numeros son pares y cuantos son impares utilizar metodos 
+ */
+package metodos;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class ParesImpares {
+
+	public static void main(String[] args) {
+
+
+
+		// LLamar al metodo muestraArreglo
+		muestraArreglo();
+
+	}
+
+	private static void muestraArreglo() {
+		// definiciom de variables
+		int arreglo[]=new int[10];
+		//generar numeros aleatorios para llenar el arreglo
+		for(int i=0;i<arreglo.length;i++)
+		{
+			arreglo[i]=(int)(Math.random()*50+1);//llenar el arreglo con numeros aleatorios
+		}
+		//llamar al metodo muestra arreglo
+		muestraArreglo(arreglo);
+		Arrays.sort(arreglo);
+		System.out.println("\n");
+		muestraArreglo(arreglo);
+		
+		
+	}
+
+	private static void muestraArreglo(int[] arreglo) {
+		// Declaracion de variables
+		for(int i=0;i<arreglo.length;i++)
+		{System.out.print(arreglo[i]+"\t");}
+		
+
+	}
+
+}

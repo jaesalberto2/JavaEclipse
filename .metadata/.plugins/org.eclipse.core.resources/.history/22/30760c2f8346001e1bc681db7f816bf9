@@ -1,0 +1,15 @@
+/*
+ * Ejemplo 6: Muestra en pantalla datos personales de una persona
+ */
+package basicos;
+
+public class DatosPers {
+
+	public static void main(String[] args) {
+		System.out.print("Nombre :"+"\t"+"Luis"+"\n");
+		//edad : 20 years
+		System.out.print("");
+
+	}
+
+}

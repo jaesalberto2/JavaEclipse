@@ -1,0 +1,36 @@
+package guiaRepeticion;
+
+import javax.swing.JOptionPane;
+
+public class Ejercicio26 {
+
+	public static void main(String[] args) {
+
+		int num=0,numcopy=0,num2,i=0,num3,dig=0;
+		String cadena="";
+		num=Integer.parseInt(JOptionPane.showInputDialog(null,"Escribe un numero"
+				+ "","digitos",JOptionPane.INFORMATION_MESSAGE));
+		dig=Integer.parseInt(JOptionPane.showInputDialog(null,"Escribe un digito"
+				+ "","digitos",JOptionPane.INFORMATION_MESSAGE));
+		numcopy=num;
+		num3=num;
+		do
+		{
+		numcopy=numcopy/10;
+		num2=(num-numcopy*10);
+		cadena+= num2;
+		num=(num/10);
+		numcopy=num;
+		i++;
+		}while(numcopy>=1);
+		do
+		{
+			if(num3-dig*Math.pow(10, i))
+			{}
+				
+		}while(i>=0);
+		
+
+	}
+
+}

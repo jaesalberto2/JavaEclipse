@@ -1,0 +1,27 @@
+/*
+ * Crea una tabla de datos de estudiantes
+ */
+package basicos;
+
+public class DatosPersonales4 {
+
+	public static void main(String[] args) {
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("|#		Nombre		Direccion		Correo		Telefono		Carrera|");
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("1		Alberto			Sin nombre #33		jaesalberto2@gmail.com				4581104683		ISC");
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("2		Yoseline 		Alvaro Obregon #1				ISC");
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("3		2		3		4		5		ISC");
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("4		2		3		4		5		ISC");
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("5		2		3		4		5		ISC");
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("6		2		3		4		5		ISC");
+		System.out.println("________________________________________________________________________________________________________");
+
+	}
+
+}

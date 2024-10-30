@@ -1,0 +1,18 @@
+/*
+ * Ejercicio 10Escribe un programa que calcule la media
+ *  de un conjunto de números positivosintroducidos por teclado. 
+ *  A priori, el programa no sabe cuántos números seintroducirán.
+ *   El usuario indicará que ha terminado de introducir los datoscuando 
+ *   meta un número negativo.
+ */
+
+package guiaRepeticion;
+
+public class Ejercicio10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+/*
+ * Ejemplo 6: Muestra en pantalla datos personales de una persona
+ */
+
+public class DatosPersonales2 {
+
+	public static void main(String[] args) {
+		System.out.println("Nombre :"+"\t"+"Luis");
+
+	}
+
+}

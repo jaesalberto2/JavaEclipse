@@ -1,0 +1,40 @@
+package guiaExamen;
+
+import java.util.Scanner;
+
+public class Granjero {
+
+	public static void main(String[] args) {
+
+
+		
+		        Scanner scanner = new Scanner(System.in);
+		        System.out.println("Introduce el nombre del granjero:");
+		        String nombreGranjero = scanner.nextLine();
+		        System.out.println("Introduce el tipo de fumigación (1-4):");
+		        int tipoFumigacion = scanner.nextInt();
+		        System.out.println("Introduce el número de hectáreas a fumigar:");
+		        int numHectareas = scanner.nextInt();
+
+		        double costoPorHectarea = 0;
+		        if (tipoFumigacion == 1) {
+		            costoPorHectarea = 10;
+		        } else if (tipoFumigacion == 2) {
+		            costoPorHectarea = 20;
+		        } else if (tipoFumigacion == 3) {
+		            costoPorHectarea = 30;
+		        } else if (tipoFumigacion == 4) {
+		            costoPorHectarea = 50;
+		        }
+
+		        double costoTotal = costoPorHectarea * numHectareas;
+		        if (numHectareas > 1000) {
+		            costoTotal = costoTotal - (costoTotal * 0.05);
+		        }
+
+		        System.out.println("El granjero " + nombreGranjero + " debe pagar: $" + costoTotal);
+		    
+
+	}
+
+}

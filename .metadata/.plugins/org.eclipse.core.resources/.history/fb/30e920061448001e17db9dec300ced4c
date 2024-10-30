@@ -1,0 +1,28 @@
+/**
+ * Ejercicio 7: Muestra Datos Personales Mediante
+ * el uso de la definicion de variables
+ */
+package basicos;
+
+public class DatosPersonales3 {
+
+	public static void main(String[] args) {
+		//Definicion de variables
+		//tipo + nombre + valor
+	String nombre = "Alberto Escareno";
+	String direccion = "Av. Morelos #662";
+	String telefono = "4921234567";
+	String email = "jaesalberto2@gmail.com";
+	String carrera = "Ing. Sistemas Comp. ";
+	int edad = 21;
+	double peso = 87.56;
+	double altura = 1.76;
+	double promedio = 87.98;
+	String tipoSangre = "A+";
+	//Imprime los datos del estudiante
+	System.out.println("_____________________________");
+	System.out.println("Nombre "+nombre);
+	
+	}
+
+}

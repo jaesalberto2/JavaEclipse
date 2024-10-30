@@ -1,0 +1,35 @@
+/*
+ * Ejercicio 20Igual que el ejercicio anterior 
+ * pero esta vez se debe pintar una pirámide hueca.
+ */
+
+package guiaRepeticion;
+
+import java.util.Scanner;
+
+public class Ejercicio20 {
+
+	public static void main(String[] args) {
+		//Declaracion de variables
+		int i=1,num,k;
+		String n=" ",m,cadena="",empy=" ";
+		Scanner in = new Scanner(System.in);
+		System.out.println("Ingrese un caracter");
+		m=in.nextLine();
+		System.out.println("Ingrese la cantidad de filas de la piramide");
+		num=in.nextInt();
+		do
+		{
+			
+			
+			for(k=1;k<=i;k++)
+			{cadena+=(((num/2)-(k/2))*n)+m;
+			}
+			cadena+="\n";
+		i++;
+		}while(i<=num);
+		System.out.println(cadena);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+/*
+ * La compañia fumigas SC
+ */
+
+package seleccion;
+
+public class Fumigas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

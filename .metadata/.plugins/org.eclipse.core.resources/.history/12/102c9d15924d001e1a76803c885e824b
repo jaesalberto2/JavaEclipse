@@ -1,0 +1,16 @@
+/*
+ * Ejercicio 12 : Muestra el uso de operadores 
+ * aritmeticos
+ */
+package basicos;
+
+public class OperadoresAritmeticos {
+
+	public static void main(String[] args) {
+		//Definicion de variables
+		int x=10,y=20;
+		System.out.println("Resultado de la suma de "+x+"+"+y+" = "+"x+y");
+
+	}
+
+}

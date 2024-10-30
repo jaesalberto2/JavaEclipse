@@ -1,0 +1,14 @@
+/*
+ * Crea una tabla de datos de estudiantes
+ */
+package basicos;
+
+public class DatosPersonales4 {
+
+	public static void main(String[] args) {
+		System.out.println("______________________________________________________________________________________________");
+	System.out.println("|#		Nombre		Direccion		Correo		Telefono		Carrera|");
+
+	}
+
+}

@@ -1,0 +1,28 @@
+/*
+ * 
+ */
+package guiaRepeticion;
+import javax.swing.JOptionPane;
+public class Ejercicio11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int inicio,i;
+		String conc="Numero\tcuadrado\tcubo\n";
+		inicio=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingresa un numero entero:",
+                JOptionPane.INFORMATION_MESSAGE));
+		
+		for(i=0;i<=5;i++)
+		{
+			conc += inicio+"\t"+Math.pow(inicio, 2)+"\t\t"+Math.pow(inicio, 3)+"\n";
+			inicio++;
+			
+		}//fin del for
+		System.out.println(conc);
+		JOptionPane.showMessageDialog(null, 
+                conc,
+                "Resultado",
+                JOptionPane.INFORMATION_MESSAGE);
+	}
+
+}

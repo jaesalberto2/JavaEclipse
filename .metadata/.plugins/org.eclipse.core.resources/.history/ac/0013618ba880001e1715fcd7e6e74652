@@ -1,0 +1,17 @@
+/*
+ * 
+ */
+package guiaRepeticion;
+import javax.swing.JOptionPane;
+public class Ejercicio11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int inicio;
+		inicio=Integer.parseInt(JOptionPane.showInputDialog(null,"1.-Ingresa Valores"
+                + "\n2.-Suma\n3.-Resta\n4.-Multiplicacion\n"
+                + "5.-Division\n6.-Salir","Menu Operaciones",
+                JOptionPane.INFORMATION_MESSAGE));
+	}
+
+}

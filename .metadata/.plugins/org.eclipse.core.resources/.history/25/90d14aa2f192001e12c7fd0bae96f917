@@ -1,0 +1,25 @@
+/*
+ * 
+ */
+package guiaMetodos;
+
+import javax.swing.JOptionPane;
+
+public class Ejercicio13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+		        int[] num = {0, 30, 2, -1, 14, 5, 120, 74, 12, 55, 21, 12};
+		        mostrarNumeros("Contenido del array:", num);
+		    }
+
+		    public static void mostrarNumeros(String mensaje, int[] numeros) {
+		        StringBuilder sb = new StringBuilder(mensaje);
+		        for (int i = 0; i < numeros.length; i++) {
+		            sb.append("\nIndice ").append(i).append(": ").append(numeros[i]);
+		        }
+		        JOptionPane.showMessageDialog(null, sb.toString());
+		    }
+		}

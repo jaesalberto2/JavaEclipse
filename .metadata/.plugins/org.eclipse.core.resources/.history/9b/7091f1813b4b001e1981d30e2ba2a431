@@ -1,0 +1,53 @@
+/*
+ * Crea una tabla de datos de estudiantes
+ */
+package basicos;
+
+public class DatosPersonales4 {
+
+	public static void main(String[] args) {
+		//definicion de variables
+		String nom1="Juan charrasqueado",
+				nom2="Juana de Isla",
+				nom3="Doroteo Arango",
+				nom4="Andrea Bocelli",
+				nom5="Alfredo Juarez";
+		String dir1="Av. de los Olivos #123",
+				dir2="Av. juarez #89",
+				dir3="Colonia Juarez #45",
+				dir4="Callejon de la Aura #679",
+				dir5="Jardin Morelos #1";
+		String email1="jcharrasqueado@gmail.com",
+				email2="jisla@hotmail.com",
+				email3="darango@tacnm.mx",
+				email4="abocelli@yahoo.com",
+				email5="ajuarez@telmex.com";
+		String tel1="492-123-4567",
+				tel2="493-890-2345",
+				tel3="324-678-2345",
+				tel4="786-897-2378",
+				tel5="491-908-1764";
+		String carr1="Ing.Informatica",
+				carr2="",
+				carr3="",
+				carr4="",
+				carr5="";
+		
+		System.out.println("_______________________________________________________________________________________________________________________________________________________________");
+		System.out.println("|#		Nombre				Direccion			Correo					Telefono		Carrera|");
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("1		"+nom1+"		"+dir1+"		"+email1+"		"+tel1+"		"+carr1);
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("2		"+nom2+"			"+dir2+"		"+email2+"		"+tel2+"		"+carr2);
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("3		"+nom3+"			"+dir3+"		"+email3+"		"+tel3+"		"+carr3);
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("4		"+nom4+"			"+dir4+"		"+email4+"		"+tel4+"		"+carr4);
+		System.out.println("________________________________________________________________________________________________________");
+		System.out.println("5		"+nom5+"			"+dir5+"		"+email5+"		"+tel5+"		"+carr5);
+		System.out.println("________________________________________________________________________________________________________");
+
+
+	}
+
+}

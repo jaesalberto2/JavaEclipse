@@ -1,0 +1,41 @@
+/*
+*Ejercicio 18: Elabora un programa mediante el uso de un menu
+*para realizar el calculo de las siguientes figuras geometricas referente
+*a sus areas y perimetros: circulo, triangulo, rectangulo cuadrado y rombo
+*/
+package repeticion;
+
+import java.util.Scanner;
+
+public class AreasDoWhile {
+
+	public static void main(String[] args) {
+		// Declaracion de variables
+		double area=0, perimetro=0, radio=0, lado=0, base=0, altura=0;
+		int opc;
+		Scanner in= new Scanner(System.in);
+		do {
+		System.out.println("\tMenu principal");
+		System.out.println("1.- Menu areas");
+		System.out.println("2.- Menu perimetros");
+		System.out.println("3.- Salir del programa");
+		System.out.println("Selecciona opcion:");
+		opc = in.nextInt();
+		switch(opc)
+		{
+		case 1:{
+			
+		}break;
+		
+		case 2:{
+			
+		}break;
+		
+		case 3:
+			System.exit(0);
+		}//Cierre del switch
+		}while(opc!=3);
+
+	}
+
+}

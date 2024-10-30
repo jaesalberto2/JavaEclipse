@@ -1,0 +1,21 @@
+package basicos;
+
+public class Diccionario {
+
+	public static void main(String[] args) {
+		System.out.println("\tDiccionario");
+		System.out.println("#	Espa\u00f1ol	Ingles	Frances");
+		System.out.println("1	Perro	Dog	Chien");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("Mesa	Table	tableau");
+
+	}
+
+}

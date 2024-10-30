@@ -1,0 +1,32 @@
+package basicos;
+
+public class Diccionario {
+
+	public static void main(String[] args) {
+		System.out.println("\tDiccionario");
+		System.out.println("_________________________________________");
+		System.out.println("#	Espa\u00f1ol	Ingles	Frances");
+		System.out.println("_________________________________________");
+		System.out.println("1	Perro	Dog	Chien");
+		System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+		System.out.println("Silla	chair	Chaise");
+		System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+		System.out.println("Cocina	kitchen	Cuisine");
+		System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+		System.out.println("Puerta	Door	Porte");
+		System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+		System.out.println("Terraza	Terrase	Terrasse");
+		System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+		System.out.println("Mesa	Table	tableau");
+		System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+		System.out.println("Mesa	Table	tableau");
+
+	}
+
+}

@@ -1,0 +1,17 @@
+/*
+ * Ejercicio 9; Definicion de numeros random
+ */
+
+
+package metodos;
+
+public class Random1 {
+
+	public static void main(String[] args) {
+		// Declaracion de variables
+		int nrandom;
+		nrandom=(int)(Math.random()*10);
+		System.out.println(nrandom);
+	}
+
+}

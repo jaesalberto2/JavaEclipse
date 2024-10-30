@@ -1,0 +1,18 @@
+/*
+ * Ejercicio 20: Operaciones basicas con JOption
+ */
+package repeticion;
+
+import javax.swing.JOptionPane;
+
+public class OperacionesBasicasJoption {
+
+	public static void main(String[] args) {
+		// Declaracion de variables
+		char opc;
+		opc= JOptionPane.showInputDialog("Ingresa un valor");
+		
+
+	}
+
+}

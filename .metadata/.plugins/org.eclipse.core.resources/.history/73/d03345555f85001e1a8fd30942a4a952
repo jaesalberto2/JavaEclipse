@@ -1,0 +1,33 @@
+/*
+ * Ejercicio 5; Realizar paso de parametros entre metodos
+ */
+package metodos;
+
+import javax.swing.JOptionPane;
+
+public class PasoParametros {
+
+	public static void main(String[] args) {
+		//llamado al metodo operaciones
+		operaciones();
+		
+	}
+
+	private static void operaciones() {
+		//Declaracion de variables
+		int num1,num2,s;
+		num1=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingresa "
+				+ "valor","Numero 1",JOptionPane.INFORMATION_MESSAGE));
+		num2=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingresa "
+				+ "valor","Numero 2",JOptionPane.INFORMATION_MESSAGE));
+		s=suma(num1,num2);
+	}
+
+	private static int suma(int n1, int n2) {
+		
+		return (n1+n2);
+	}
+
+	
+
+}

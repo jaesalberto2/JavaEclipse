@@ -1,0 +1,37 @@
+/*
+ * Ejercicio 5: Determina el salario de un empleado
+ * 
+ */
+
+package seleccion;
+
+import java.util.Scanner;
+
+public class Salario {
+
+	public static void main(String[] args) {
+		// Declaracion de variables
+		String nombre, city;
+		double salario;
+		Scanner in = new Scanner(System.in);
+		//solicitar los valores iniciales
+		System.out.println("___________________________________________");
+		System.out.println("\tDetermina el Salario de un Empleado");
+		System.out.println("___________________________________________");
+		System.out.println("Ingresa el nombre del empleado :");
+		nombre=in.nextLine();
+		System.out.println("Ingresa lugar de residencia :");
+		city=in.nextInt();
+		System.out.println("Ingresa salario quincenal :");
+		salario=in.nextDouble();
+		if(city.equals("Monterrey"))
+		{
+			System.out.println(true);
+		}
+		else
+		{
+			System.out.println(false);
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+/*
+ * Ejercicio 14: Realizar las operaciones basicas con arreglos
+ * suma, resta, multiplicacion,division,residuo e intercambio,
+ * generar los arreglos con numeros aleatorios con un rango de 1 a 20
+ * utilizar metodos
+ */
+package metodos;
+
+import java.util.Scanner;
+
+public class OperacionesArreglos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		menuArreglos();
+		
+
+	}
+
+	private static void menuArreglos() {
+		// TODO Auto-generated method stub
+		int opc;
+		Scanner in= new Scanner(System.in);
+		System.out.print("__________________________________");
+		System.out.print("____________Menu principal________");
+		System.out.print("__________________________________");
+		System.out.print("\n1._Inicializar arreglos\n2.-Suma Arreglos\n3.-Resta Arreglos"
+				+ "\n4.-Multiplicacion Arreglos\n5.-Division Arreglos\n6.-Residio Arreglos\n"
+				+ "7.-Intercalacion Arreglos\n8.-Salir\n\nSelecciona Opcion");
+	}
+
+}

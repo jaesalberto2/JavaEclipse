@@ -1,0 +1,30 @@
+/*
+ * Ejercicio 26: Calcular el area de las siguientes figuras: Cuadrado, 
+ * Rectangulo, Triangulo y Circulo
+ */
+package basicos;
+
+import java.util.Scanner;
+
+public class AreaFiguras {
+
+	public static void main(String[] args) {
+		//Declaración de Variables
+		double lado,base,altura;
+		Scanner in = new Scanner(System.in);
+		//solicitar valores para calcular las areas
+		System.out.println("Ingresa valor del Lado para el Cuadrado : ");
+		lado = in.nextDouble();
+		System.out.println("Ingresa el valor de la Base para el rectangulo : ");
+		base = in.nextDouble();
+		System.out.println("Ingresa el valor de la Altura para el rectangulo : ");
+		altura = in.nextDouble();
+		//Muestra el resultado de las areas
+		System.out.println("________________________________________________");
+		System.out.println("\tResultado de las Areas");
+		System.out.println("_____________________________________________________________________");
+		System.out.println("Cuadrado :\t\t"+(lado*lado)+" metros cuadrados");
+		System.out.println("Rectangulo :\t\t"+(base*altura)+" metros cuadrados");
+	}
+
+}

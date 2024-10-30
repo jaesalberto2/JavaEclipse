@@ -1,0 +1,16 @@
+package basicos;
+
+public class OperadoresAritmeticos2 {
+
+	public static void main(String[] args) {
+		int x=10,y=20;
+		System.out.println("X\t\tY\t\tOperador\t\tResultado");
+		System.out.println(x+" + "+y+" = "+(x+y));
+		System.out.println(x+" - "+y+" = "+(x-y));
+		System.out.println(x+" X "+y+" = "+(x*y));
+		System.out.println(x+" / "+y+" = "+((double)x/(double)y)); //casting o conversion de tipos
+		System.out.println(x+" % "+y+" = "+(x%y));
+
+	}
+
+}

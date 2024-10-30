@@ -1,0 +1,97 @@
+/*
+ * Ejercicio 14: Realizar las operaciones basicas con arreglos
+ * suma, resta, multiplicacion,division,residuo e intercambio,
+ * generar los arreglos con numeros aleatorios con un rango de 1 a 20
+ * utilizar metodos
+ */
+package metodos;
+
+import java.util.Scanner;
+
+public class OperacionesArreglos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		menuArreglos();
+		
+
+	}
+
+	private static void menuArreglos() {
+		// TODO Auto-generated method stub
+		int opc;
+		int x[]=new int[20];
+		int y[]=new int[20];
+		int z[]=new int[20];
+		Scanner in= new Scanner(System.in);
+		do {
+		System.out.println("__________________________________");
+		System.out.println("_________Menu principal___________");
+		System.out.println("__________________________________");
+		System.out.print("\n1._Inicializar arreglos\n2.-Suma Arreglos\n3.-Resta Arreglos"
+				+ "\n4.-Multiplicacion Arreglos\n5.-Division Arreglos\n6.-Residio Arreglos\n"
+				+ "7.-Intercalacion Arreglos\n8.-Salir\n\nSelecciona Opcion");
+		opc=in.nextInt();
+		switch(opc)
+		{
+		case 1:
+			//inicializar los arreglos con numeros random
+			for(int i=0;i<x.length;i++)
+			{
+				x[i]=(int)(Math.random()*20+1);
+				y[i]=(int)(Math.random()*20+1);
+			
+			}
+			break;
+		case 2: sumaArreglos(x,y,z);
+			break;
+		case 3: sumaArreglos(x,y,z);
+			break;
+		case 4: restaArreglos(x,y,z);
+			break;
+		case 5:
+			break;
+		case 6:
+			break;
+		case 7:
+			break;
+		case 8:
+			System.exit(0);
+		default:System.out.println("Opcion Invalida !!!!! ");
+		
+		}//fin del switch
+		}while(opc!=8);//fin de do while
+	}
+
+	private static void restaArreglos(int[] x, int[] y, int[] z) {
+		// Realizar la resta de los arreglos
+		String operador=" - ";
+		for(int i=0;i<x.length;i++)
+		{
+			z[i]=x[i]+y[i];//suma de arreglos
+		}
+		imprimeArreglo(x,y,z,operador);
+	}
+
+	private static void sumaArreglos(int[] x, int[] y, int[] z) {
+		// Realizar la suma de arreglos
+		String operador=" + ";
+		for(int i=0;i<x.length;i++)
+		{
+			z[i]=x[i]+y[i];//suma de arreglos
+		}
+		imprimeArreglo(x,y,z,operador);
+		
+		
+	}
+
+	private static void imprimeArreglo(int[] x, int[] y, int[] z, String op) {
+		// Imprime resultados
+		for(int i=0; i<x.length; i++)
+		{
+			System.out.print(x[i]+op+y[i]+" = "+z[i]+"\n");
+		}
+		
+	}
+
+}
